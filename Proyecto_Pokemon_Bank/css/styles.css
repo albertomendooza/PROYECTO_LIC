@@ -1,0 +1,134 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+}
+
+header {
+    background-color: #fbd101; /* Amarillo */
+    padding: 20px;
+    text-align: center;
+    color: #005bbb; /* Azul */
+}
+
+footer {
+    background-color: #005bbb; /* Azul */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Estilos para el formulario de inicio de sesión */
+#login {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px 0; /* Añadimos padding arriba y abajo */
+}
+
+#login h2 {
+    margin-bottom: 10px; /* Añadimos espacio adicional abajo del texto "Por favor no retire su tarjeta" */
+}
+
+#login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px; /* Añadimos espacio entre los elementos */
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Añadimos espacio entre el campo para el PIN y el botón */
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #005bbb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #004081;
+}
+
+.error {
+    color: #ff0000;
+    margin-top: 10px;
+}
+
+/* Estilos para los elementos de la interfaz de usuario */
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#botones-acciones {
+    width: 200px; /* Establecemos un ancho fijo para los botones */
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; /* Añadimos un margen a la derecha para separarlo del panel central */
+}
+
+#botones-acciones button {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%; /* Los botones ocuparán todo el ancho disponible en su contenedor */
+    cursor: pointer;
+}
+
+#panel-central {
+    flex: 1; /* Hacemos que el panel central ocupe todo el espacio restante */
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los botones */
+.boton {
+    padding: 15px 0; /* Ajustar el espaciado interno */
+    font-size: 18px; /* Tamaño del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espaciado inferior */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    width: 200px; /* Ancho fijo */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilos para los botones de Bootstrap */
+.boton {
+    padding: 15px 0; /* Ajustar el espaciado interno */
+    font-size: 18px; /* Tamaño del texto */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    width: 200px; /* Ancho fijo */
+    text-align: center; /* Centrar el texto */
+}
+
+.boton:hover {
+    background-color: #0056b3; /* Cambiar el color de fondo al pasar sobre el botón */
+}

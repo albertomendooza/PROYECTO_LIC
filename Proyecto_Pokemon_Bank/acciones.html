@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acciones - Pokémon Bank</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Si tienes estilos personalizados -->
+
+    <!-- Agregar biblioteca de iconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Pokémon Bank</h1>
+    </header>
+
+    <main>
+        <section id="acciones" class="section">
+            <div class="container">
+                <div id="botones-acciones">
+                    <!-- Botones con iconos -->
+                    <button id="depositar" class="btn btn-primary"><i class="fas fa-coins"></i> Depositar</button>
+                    <button id="retirar" class="btn btn-primary"><i class="fas fa-money-bill-wave"></i> Retirar</button>
+                    <button id="consultar-saldo" class="btn btn-primary"><i class="fas fa-wallet"></i> Consultar saldo</button>
+                    <button id="pagar-servicios" class="btn btn-primary"><i class="fas fa-hand-holding-usd"></i> Pagar servicios</button>
+                    <button id="cerrar-sesion" class="btn btn-danger"><i class="fas fa-sign-out-alt"></i> Salir</button>
+                </div>
+                <div id="panel-central" class="panel-central">
+                    <p id="bienvenida"></p> <!-- Mensaje de bienvenida -->
+                    <!-- Contenido dinámico según la acción seleccionada -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Pokémon Bank. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/acciones.js"></script> <!-- Incluir acciones.js -->
+</body>
+</html>
